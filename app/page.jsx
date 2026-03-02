@@ -2,9 +2,9 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Github, Linkedin, Mail, ChevronDown, Phone, ArrowUpRight, Code2, Layers, Palette, Globe, Server, Database, ArrowRight, Briefcase, Calendar, MapPin } from 'lucide-react';
 import { motion, useScroll, useSpring, useInView, AnimatePresence } from 'framer-motion';
-import LoadingScreen from '../components/LoadingScreen';
-import SpiderWebBG from '../components/SpiderWebBG';
-import Marquee from '../components/Marquee';
+import LoadingScreen from './components/LoadingScreen';
+import SpiderWebBG from './components/SpiderWebBG';
+import Marquee from './components/Marquee';
 
 /* ─── PRELOAD UNICORN ─── */
 if (typeof window !== 'undefined' && !window.__unicornPreloaded) {
