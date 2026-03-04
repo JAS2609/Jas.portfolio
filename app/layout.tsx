@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jas | Spider-Man Portfolio",
+  title: "Jas",
   description: "Full-Stack Developer portfolio — Your Friendly Neighborhood Developer. Expertise in React, Next.js, Node.js, and cloud-based application development.",
 };
 
