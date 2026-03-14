@@ -787,15 +787,18 @@ const SpidermanPortfolio = () => {
                   </a>
                 </MagBtn>
                 <MagBtn>
-                  <button onClick={() => scrollTo('projects')} style={{
-                    background:'rgba(255,255,255,0.04)', border:'1px solid rgba(255,255,255,0.1)',
-                    color:'#fff', padding: isMobile ? '14px 28px' : '15px 34px', borderRadius:50,
-                    fontSize: isMobile ? 13 : 14, fontWeight:500,
-                    cursor:'pointer', display:'inline-flex', alignItems:'center', gap:10,
-                    backdropFilter:'blur(10px)',
-                  }}>
-                    View Work <ArrowRight size={16}/>
-                  </button>
+                  <a
+                    href="/JAS'resume.pdf"
+                    download="Jas_Resume.pdf"
+                    style={{
+                      background:'rgba(255,255,255,0.04)', border:'1px solid rgba(255,255,255,0.1)',
+                      color:'#fff', padding: isMobile ? '14px 28px' : '15px 34px', borderRadius:50,
+                      fontSize: isMobile ? 13 : 14, fontWeight:500,
+                      cursor:'pointer', display:'inline-flex', alignItems:'center', gap:10,
+                      backdropFilter:'blur(10px)', textDecoration:'none',
+                    }}>
+                    Download Resume <ArrowRight size={16}/>
+                  </a>
                 </MagBtn>
               </div>
             </Reveal>
